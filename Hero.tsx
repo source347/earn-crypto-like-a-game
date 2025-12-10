@@ -8,11 +8,11 @@ export const Hero: React.FC = () => {
          
          <div className="flex items-center gap-2 mb-2">
             <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400 text-[10px] font-bold uppercase tracking-wide animate-pulse-neon border border-yellow-500/20">
-              <Star size={10} fill="currentColor" />
+              <Star size={20} fill="currentColor" />
               Season 4: Multipliers Active
             </div>
             <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-[10px] font-bold uppercase tracking-wide border border-green-500/20">
-              <Zap size={10} fill="currentColor" />
+              <Zap size={20} fill="currentColor" />
               +25% XP Weekend
             </div>
          </div>
