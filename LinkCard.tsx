@@ -70,7 +70,7 @@ export const LinkCard: React.FC<Props> = ({ item }) => {
               className="w-6 h-6 object-contain z-10" 
               onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
             />
-            <div className="absolute inset-0 flex items-center justify-center -z-10 font-bold text-[10px] text-slate-300">
+            <div className="absolute inset-0 flex items-center justify-center -z-10 font-bold text-sm text-slate-300">
                {item.title.charAt(0)}
             </div>
           </div>
@@ -90,7 +90,7 @@ export const LinkCard: React.FC<Props> = ({ item }) => {
         </div>
         
         {/* Description */}
-        <p className="text-[10px] text-slate-500 dark:text-slate-400 line-clamp-2 flex-grow leading-tight mb-2">
+        <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2 flex-grow leading-tight mb-2">
           {item.description}
         </p>
 
@@ -99,7 +99,7 @@ export const LinkCard: React.FC<Props> = ({ item }) => {
           <span className="text-[9px] font-bold text-emerald-600 dark:text-emerald-400 flex items-center gap-0.5">
             <Sparkles size={8} /> LOOT
           </span>
-          <ExternalLink size={10} className="text-slate-300 group-hover:text-purple-500 transition-colors" />
+          <ExternalLink size={16} className="text-slate-300 group-hover:text-purple-500 transition-colors" />
         </div>
 
         {/* Hover Shine Effect */}
