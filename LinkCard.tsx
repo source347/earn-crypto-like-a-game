@@ -67,7 +67,7 @@ export const LinkCard: React.FC<Props> = ({ item }) => {
             <img 
               src={getFavicon(item.url)} 
               alt="" 
-              className="w-4 h-4 object-contain z-10" 
+              className="w-6 h-6 object-contain z-10" 
               onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
             />
             <div className="absolute inset-0 flex items-center justify-center -z-10 font-bold text-[10px] text-slate-300">
