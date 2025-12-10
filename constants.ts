@@ -113,15 +113,6 @@ export const LINKS: LinkItem[] = [
     color: 'bg-orange-600'
   },
   {
-    id: 'adbch',
-    title: 'AdBCH',
-    url: 'https://adbch.top/r/312844',
-    description: 'Like AdBTC but for Bitcoin Cash. Green candles only.',
-    category: CategoryType.INSTANT,
-    tags: ['BCH', 'PTC'],
-    color: 'bg-green-400'
-  },
-  {
     id: 'autofaucet',
     title: 'DutchyCorp',
     url: 'https://autofaucet.dutchycorp.space/?r=Autofaucets',
@@ -166,15 +157,7 @@ export const LINKS: LinkItem[] = [
     tags: ['GPT', 'Skins'],
     color: 'bg-cyan-600'
   },
-  {
-    id: 'dogestation',
-    title: 'DogeStation',
-    url: 'https://dogestation.com/register.php?ref=6902DA99',
-    description: 'Woof! Daily Dogecoin rewards.',
-    category: CategoryType.INSTANT,
-    tags: ['Doge', 'Daily'],
-    color: 'bg-yellow-300'
-  },
+
   // The "Pick" Series
   { id: 'dogepick', title: 'DogePick', url: 'https://dogepick.io/?ref=limana', description: 'Hourly Doge. Much wow.', category: CategoryType.INSTANT, tags: ['Doge'], color: 'bg-yellow-400' },
   { id: 'litepick', title: 'LitePick', url: 'https://litepick.io/?ref=source', description: 'Hourly Litecoin loot.', category: CategoryType.INSTANT, tags: ['LTC'], color: 'bg-gray-400' },
@@ -206,15 +189,6 @@ export const LINKS: LinkItem[] = [
     tags: ['Sim', 'Mining', 'Fun'],
     color: 'bg-purple-700',
     isHot: true
-  },
-  {
-    id: 'bchgames',
-    title: 'BCH Games',
-    url: 'https://bch.games/play/dashboard',
-    description: 'Provably fair. Fast action. No signup required.',
-    category: CategoryType.GAMING,
-    tags: ['Casino', 'BCH'],
-    color: 'bg-green-500'
   },
   {
     id: 'limercoin',
@@ -336,15 +310,6 @@ export const LINKS: LinkItem[] = [
     color: 'bg-slate-800'
   },
    {
-    id: 'namso',
-    title: 'Namso Gen',
-    url: 'https://app.namso.network/dashboard/',
-    description: 'Network participation tasks.',
-    category: CategoryType.TASKS,
-    tags: ['Network'],
-    color: 'bg-indigo-600'
-  },
-   {
     id: 'superintent',
     title: 'SuperIntent',
     url: 'https://mission.superintent.ai/?referralCode=eIJAOWtvmB',
@@ -423,24 +388,6 @@ export const LINKS: LinkItem[] = [
     isHot: true
   },
   {
-    id: 'optimai-tweet',
-    title: 'Optimai Tweet',
-    url: 'https://app.optimai.im/generate-tweet',
-    description: 'Social farming for Optimai ecosystem.',
-    category: CategoryType.LONGTERM,
-    tags: ['Social'],
-    color: 'bg-teal-500'
-  },
-  {
-    id: 'fight',
-    title: 'Fight.id',
-    url: 'https://app.fight.id/home',
-    description: 'Claim your Web3 Identity. Future proof.',
-    category: CategoryType.LONGTERM,
-    tags: ['Identity'],
-    color: 'bg-red-700'
-  },
-  {
     id: 'brevis',
     title: 'Brevis',
     url: 'https://proving-grounds.brevis.network/VQcpfa',
@@ -506,24 +453,6 @@ export const LINKS: LinkItem[] = [
     color: 'bg-green-500'
   },
   {
-    id: 'bingx',
-    title: 'BingX',
-    url: 'https://bingx.com/invite/9NNUWM',
-    description: 'Social trading. Copy the whales.',
-    category: CategoryType.TOOLS,
-    tags: ['Social', 'CopyTrade'],
-    color: 'bg-blue-600'
-  },
-  {
-    id: 'payeer',
-    title: 'Payeer',
-    url: 'https://payeer.com/?session=11397475',
-    description: 'The bridge between Fiat and Crypto. Supports Rubles.',
-    category: CategoryType.TOOLS,
-    tags: ['Wallet', 'Fiat'],
-    color: 'bg-cyan-600'
-  },
-  {
     id: 'publish0x',
     title: 'Publish0x',
     url: 'https://www.publish0x.com/?a=OpnelZ1bKB',
@@ -531,41 +460,5 @@ export const LINKS: LinkItem[] = [
     category: CategoryType.TOOLS,
     tags: ['Content', 'Reading'],
     color: 'bg-orange-400'
-  },
-  {
-    id: 'startme1',
-    title: 'Start.me Income',
-    url: 'https://start.me/p/aL44E0/online-income',
-    description: 'A massive directory of income sites.',
-    category: CategoryType.TOOLS,
-    tags: ['Resource'],
-    color: 'bg-slate-500'
-  },
-  {
-    id: 'startme2',
-    title: 'Start.me Crypto',
-    url: 'https://start.me/p/lLBAx7/free-crypto',
-    description: 'More free crypto resources.',
-    category: CategoryType.TOOLS,
-    tags: ['Resource'],
-    color: 'bg-slate-500'
-  },
-  {
-    id: 'dropmark',
-    title: 'Cryptokinase',
-    url: 'https://cryptokinase.dropmark.com/1141913',
-    description: 'Visual bookmarks for crypto tools.',
-    category: CategoryType.TOOLS,
-    tags: ['Resource'],
-    color: 'bg-pink-600'
-  },
-  {
-    id: 'beacons',
-    title: 'Beacons',
-    url: 'https://beacons.ai/dashboard',
-    description: 'Link in bio tool for creators.',
-    category: CategoryType.TOOLS,
-    tags: ['Social'],
-    color: 'bg-purple-500'
   }
 ];
