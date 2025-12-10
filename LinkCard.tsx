@@ -76,7 +76,7 @@ export const LinkCard: React.FC<Props> = ({ item }) => {
           </div>
           
           <div className="flex-1 min-w-0 overflow-hidden">
-            <h3 className="font-bold text-slate-800 dark:text-slate-100 truncate text-xl leading-none group-hover:text-purple-600 dark:group-hover:text-neon-blue transition-colors">
+            <h3 className="font-bold text-slate-800 dark:text-slate-100 truncate text-3xl leading-none group-hover:text-purple-600 dark:group-hover:text-neon-blue transition-colors">
               {item.title}
             </h3>
             <div className="flex gap-1 mt-1 overflow-hidden">
