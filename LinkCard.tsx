@@ -27,7 +27,7 @@ export const LinkCard: React.FC<Props> = ({ item }) => {
   };
 
   return (
-    <div className="relative group h-full">
+    <div className="relative group w-64">
       {/* Floating XP Text Animation - Smaller & Faster */}
       {xpFloat && (
         <div className="absolute -top-6 left-1/2 -translate-x-1/2 text-yellow-400 font-black text-xs animate-bounce-fast z-50 pointer-events-none drop-shadow-sm select-none">
