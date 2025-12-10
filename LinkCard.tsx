@@ -59,7 +59,7 @@ export const LinkCard: React.FC<Props> = ({ item }) => {
         {/* Header: Icon + Title */}
         <div className="flex items-center gap-2 mb-1.5">
           <div className={`
-            w-7 h-7 min-w-[1.75rem] rounded bg-slate-50 dark:bg-slate-800 
+            w-8 h-8 min-w-[1.75rem] rounded bg-slate-50 dark:bg-slate-800 
             flex items-center justify-center border border-slate-100 dark:border-slate-700
             relative overflow-hidden shrink-0
           `}>
@@ -67,10 +67,10 @@ export const LinkCard: React.FC<Props> = ({ item }) => {
             <img 
               src={getFavicon(item.url)} 
               alt="" 
-              className="w-6 h-6 object-contain z-10" 
+              className="w-8 h-8 object-contain z-10" 
               onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
             />
-            <div className="absolute inset-0 flex items-center justify-center -z-10 font-bold text-sm text-slate-300">
+            <div className="absolute inset-0 flex items-center justify-center -z-10 font-bold text-base text-slate-300">
                {item.title.charAt(0)}
             </div>
           </div>
