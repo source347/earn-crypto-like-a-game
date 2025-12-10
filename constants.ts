@@ -1,13 +1,7 @@
 import { CategoryType, LinkItem, CategoryMeta } from './types';
 
 export const CATEGORIES: CategoryMeta[] = [
-  {
-    id: CategoryType.INSTANT,
-    label: "⚡ Instant Loot",
-    description: "Speedrun your way to satoshis. Click, claim, withdrawal. NO CAP.",
-    icon: "⚡",
-    gradient: "from-yellow-400 to-orange-500"
-  },
+  
   {
     id: CategoryType.GAMING,
     label: "🎮 Arcade Mode",
@@ -42,6 +36,13 @@ export const CATEGORIES: CategoryMeta[] = [
     description: "HODL territory. Airdrops and moonshots for the diamond hands.",
     icon: "💎",
     gradient: "from-indigo-500 to-violet-700"
+  },
+  {
+    id: CategoryType.INSTANT,
+    label: "⚡ Instant Loot",
+    description: "Speedrun your way to satoshis. Click, claim, withdrawal. NO CAP.",
+    icon: "⚡",
+    gradient: "from-yellow-400 to-orange-500"
   }
 ];
 
