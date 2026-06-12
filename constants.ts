@@ -132,15 +132,6 @@ export const LINKS: LinkItem[] = [
     color: 'bg-teal-500'
   },
   {
-    id: 'earnviv',
-    title: 'EarnViv',
-    url: 'https://earnviv.com/?r=36182',
-    description: 'High yield rewards for the dedicated grinder.',
-    category: CategoryType.INSTANT,
-    tags: ['Faucet', 'Rewards'],
-    color: 'bg-indigo-500'
-  },
-  {
     id: 'earnbitmoon',
     title: 'EarnBitMoon',
     url: 'https://earnbitmoon.club/?ref=265500',
@@ -148,15 +139,6 @@ export const LINKS: LinkItem[] = [
     category: CategoryType.INSTANT,
     tags: ['Club', 'Bonus'],
     color: 'bg-yellow-500'
-  },
-  {
-    id: 'freeward',
-    title: 'Freeward',
-    url: 'https://freeward.net/ref/7pex8',
-    description: 'Global reward platform. Crypto, Giftcards, Skins.',
-    category: CategoryType.INSTANT,
-    tags: ['GPT', 'Skins'],
-    color: 'bg-cyan-600'
   },
 
   // The "Pick" Series
@@ -209,15 +191,6 @@ export const LINKS: LinkItem[] = [
     tags: ['RPG', 'Hybrid'],
     color: 'bg-green-600'
   },
-  {
-    id: 'luckyx',
-    title: 'LuckyX',
-    url: 'https://app.luckyx.world/?p=Yie918',
-    description: 'Is today your lucky day? Gamified rewards.',
-    category: CategoryType.GAMING,
-    tags: ['Luck', 'Web3'],
-    color: 'bg-pink-600'
-  },
    {
     id: 'gamee',
     title: 'Gamee (TG)',
@@ -227,26 +200,10 @@ export const LINKS: LinkItem[] = [
     tags: ['Telegram', 'Mobile'],
     color: 'bg-blue-400'
   },
-  {
-    id: 'luckywatch',
-    title: 'LuckyWatch',
-    url: 'https://luckywatch.pro/u/0oqit',
-    description: 'Watch and earn. Simple as that.',
-    category: CategoryType.GAMING,
-    tags: ['Video', 'Easy'],
-    color: 'bg-red-400'
-  },
+
 
   // --- TASKS ---
-  {
-    id: '2captcha',
-    title: '2Captcha',
-    url: 'https://2captcha.com/?from=9690712',
-    description: 'Human intelligence needed. Solve captchas for cold hard cash.',
-    category: CategoryType.TASKS,
-    tags: ['Work', 'Reliable'],
-    color: 'bg-slate-600'
-  },
+
   {
     id: 'timebucks',
     title: 'TimeBucks',
@@ -256,15 +213,7 @@ export const LINKS: LinkItem[] = [
     tags: ['GPT', 'Video'],
     color: 'bg-green-700'
   },
-  {
-    id: 'everve',
-    title: 'Everve',
-    url: 'https://everve.net/ref/678797/',
-    description: 'Social Exchange. Get paid to Like, Follow, and Subscribe.',
-    category: CategoryType.TASKS,
-    tags: ['Social', 'Exchange'],
-    color: 'bg-pink-500'
-  },
+
   {
     id: 'pawns',
     title: 'Pawns.app',
@@ -273,24 +222,6 @@ export const LINKS: LinkItem[] = [
     category: CategoryType.TASKS,
     tags: ['Passive', 'Survey'],
     color: 'bg-red-500'
-  },
-  {
-    id: 'surfe',
-    title: 'Surfe.be',
-    url: 'https://surfe.be/ext/178882',
-    description: 'Bottom banner ads that pay while you browse normally.',
-    category: CategoryType.TASKS,
-    tags: ['Extension', 'Passive'],
-    color: 'bg-blue-500'
-  },
-  {
-    id: 'rewardvid',
-    title: 'RewardVid',
-    url: 'https://rewardvid.com?ref=ETqLenDf',
-    description: 'Popcorn time. Watch videos, earn loot.',
-    category: CategoryType.TASKS,
-    tags: ['Video'],
-    color: 'bg-red-600'
   },
   {
     id: 'miningblocks',
@@ -309,15 +240,6 @@ export const LINKS: LinkItem[] = [
     category: CategoryType.TASKS,
     tags: ['Edu', 'Safe'],
     color: 'bg-slate-800'
-  },
-   {
-    id: 'superintent',
-    title: 'SuperIntent',
-    url: 'https://mission.superintent.ai/?referralCode=eIJAOWtvmB',
-    description: 'Train AI models. Be the ghost in the machine.',
-    category: CategoryType.TASKS,
-    tags: ['AI', 'Training'],
-    color: 'bg-purple-500'
   },
 
   // --- PASSIVE / NODES ---
@@ -359,15 +281,6 @@ export const LINKS: LinkItem[] = [
     color: 'bg-orange-600'
   },
   {
-    id: 'gata',
-    title: 'Gata.xyz',
-    url: 'https://app.gata.xyz?invite_code=8epdx7rg',
-    description: 'Aggregator for various DePIN networks.',
-    category: CategoryType.PASSIVE,
-    tags: ['Aggregator'],
-    color: 'bg-indigo-500'
-  },
-  {
     id: 'aro',
     title: 'Aro Network',
     url: 'https://dashboard.aro.network/signup?referral=GJIXM0',
@@ -388,24 +301,7 @@ export const LINKS: LinkItem[] = [
     color: 'bg-blue-700',
     isHot: true
   },
-  {
-    id: 'brevis',
-    title: 'Brevis',
-    url: 'https://proving-grounds.brevis.network/VQcpfa',
-    description: 'ZK Coprocessor proving grounds. Hard tech.',
-    category: CategoryType.LONGTERM,
-    tags: ['ZK', 'Tech'],
-    color: 'bg-purple-800'
-  },
-  {
-    id: 'blockstreet',
-    title: 'Blockstreet',
-    url: 'https://blockstreet.money/dashboard?invite_code=mvEz8G',
-    description: 'Learn to earn. Financial literacy pays off.',
-    category: CategoryType.LONGTERM,
-    tags: ['Edu'],
-    color: 'bg-green-800'
-  },
+
   {
     id: 'billions',
     title: 'Billions',
